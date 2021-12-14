@@ -3,7 +3,7 @@
     "notes": "",
     "documentation": "\"This file is a QMK Configurator export. You can import this at <https://config.qmk.fm>. It can also be used directly with QMK's source code.\n\nTo setup your QMK environment check out the tutorial: <https://docs.qmk.fm/#/newbs>\n\nYou can convert this file to a keymap.c using this command: `qmk json2c {keymap}`\n\nYou can compile this keymap using this command: `qmk compile {keymap}`\"\n",
     "keyboard": "helix/rev3_4rows",
-    "keymap": "indeedhat",
+    "keymap": "indeedhat1",
     "layout": "LAYOUT",
     "layers": [
         [
@@ -46,17 +46,17 @@
             "KC_TRNS","KC_TRNS","KC_TRNS","KC_MNXT","KC_VOLD","KC_VOLU","KC_MPLY"
         ],
         [
-            "KC_F1","KC_F2","KC_UP","KC_F4","KC_F5","KC_F6",
+            "KC_F1","KC_F2","KC_F2","KC_F4","KC_F5","KC_F6",
             "KC_F7","KC_F8","KC_F9","KC_F10","KC_F11","KC_F12",
 
-            "KC_TRNS","KC_LEFT","KC_DOWN","KC_RGHT","RESET","EEP_RST",
+            "KC_TRNS","KC_TRNS","KC_TRNS","KC_TRNS","RESET","EEP_RST",
             "KC_LEFT","KC_DOWN","KC_UP","KC_RGHT","KC_TRNS","KC_DEL",
 
-            "KC_TRNS","KC_TRNS","KC_TRNS","KC_TRNS","KC_TRNS","AG_NORM",
-            "AG_SWAP","KC_TRNS","RGB_TOG","RGB_HUI","RGB_SAI","RGB_VAI",
+            "KC_TRNS","KC_TRNS","KC_TRNS","KC_TRNS","KC_TRNS","KC_TRNS",
+            "KC_TRNS","KC_TRNS","KC_TRNS","KC_TRNS","KC_TRNS","KC_TRNS",
 
             "KC_TRNS","KC_TRNS","KC_TRNS","KC_TRNS","KC_TRNS","KC_TRNS","KC_TRNS",
-            "KC_TRNS","KC_TRNS","KC_TRNS","RGB_MOD","RGB_HUD","RGB_SAD","RGB_VAD"
+            "KC_TRNS","KC_TRNS","KC_TRNS","KC_TRNS","KC_TRNS","KC_TRNS","KC_TRNS"
         ]
     ],
     "author": ""
